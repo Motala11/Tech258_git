@@ -29,7 +29,7 @@ The `'.gitignore'` command ensures that certain files not tracked by Git remain 
 
 ## Distributed Version Control
 
-![](E:\Documents-SG\Github\git_learning\Images\CVC_vs_DVC_Diagram.PNG)
+![](E:\Documents-SG\Github\git_learning\CVC_vs_DVC_Diagram.PNG)
 This diagram showcases the working style of both CVC and DVC. CVC work from one online repo, where users commit and update from thier own working copies. DVC operates with both a local repo and an online repo. This allows users to commit and update copies to their own local repo's, before pushing this onto the online repo.
 
 ## What is Github?
