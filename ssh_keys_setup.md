@@ -27,7 +27,14 @@ This command will start the SSh agent in your system, which allows you to manage
 This command will add your private key to the SSH, thus allowing you to eventually link it with your Github.
 
 ## Step 5
-Go on the Github website, click on settings, navigate to deploy key, choose a name for the key and enter the private key which is displayed in terminal. 
+![img.png](img.png)
+Go on the Github website, click on settings and navigate to deploy key.
+![img_1.png](img_1.png) 
+Choose a name for the key. 
+<br>
+`cat ~/.ssh/id_rsa.pub`
+This command showcases the public key which you need to paste into your terminal.
+Enter the public key which is displayed in terminal, into the "Key" section as shown in image 2.
 <br>
 Github will prompt you to sign in to verify this, once verified, the process is complete.
 
